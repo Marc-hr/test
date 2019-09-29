@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace为映射的唯一标识用于和对应的dao层接口进行匹配 -->
+<mapper namespace="cn.yunhe.dao.IUserDao">
+<!-- id作为SQL的唯一标识,要求id的值要和接口的方法名,参数,返回值类型保持一致-->
+	<insert id="addUser" parameterType="user">
+		insert into user(uname,upass) value(#{uname},#{upass})
+	</insert>
+	
+	<select id="queryUser" parameterType="int" resultType="user">
+		select uid,uname,upass from user where uid= #{uid }
+	</select>
+	
+	<select id="queryUsers" parameterType="java.lang.String" resultType="user">
+		select uid,uname,upass from user where uname like concat('%',concat(#{uname},'%')) 
+	</select>
+	
+	
+</mapper>

@@ -1,0 +1,298 @@
+2019-09-26 10:40:35  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:40:35  [ main:190 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:40:35  [ main:190 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:40:35  [ main:190 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:40:35  [ main:190 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:40:35  [ main:265 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:40:36  [ main:439 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:40:36  [ main:439 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:40:36  [ main:442 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid=? 
+2019-09-26 10:40:36  [ main:459 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:41:05  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:41:05  [ main:82 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:05  [ main:82 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:05  [ main:83 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:05  [ main:83 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:05  [ main:159 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:41:05  [ main:301 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:41:05  [ main:301 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:41:05  [ main:303 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid=? 
+2019-09-26 10:41:05  [ main:333 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:41:58  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:41:58  [ main:84 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:58  [ main:84 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:58  [ main:84 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:58  [ main:84 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:41:58  [ main:159 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:41:58  [ main:302 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:41:58  [ main:302 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:41:58  [ main:303 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid={#uid} 
+2019-09-26 10:41:58  [ main:321 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:43:09  [ main:1 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:43:09  [ main:73 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:43:09  [ main:74 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:43:09  [ main:74 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:43:09  [ main:74 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:43:09  [ main:143 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:43:09  [ main:281 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:43:09  [ main:281 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:43:09  [ main:283 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= {#uid } 
+2019-09-26 10:43:09  [ main:303 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:47:12  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:47:12  [ main:88 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:12  [ main:88 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:12  [ main:88 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:12  [ main:88 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:12  [ main:182 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:47:13  [ main:318 ] - [ DEBUG ]  Created connection 1605283233.
+2019-09-26 10:47:13  [ main:319 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@5faeada1]
+2019-09-26 10:47:13  [ main:321 ] - [ DEBUG ]  ==>  Preparing: insert into user(uname,upass) value(?,?) 
+2019-09-26 10:47:13  [ main:343 ] - [ DEBUG ]  ==> Parameters: 李四(String), 12(String)
+2019-09-26 10:47:13  [ main:348 ] - [ DEBUG ]  <==    Updates: 1
+2019-09-26 10:47:13  [ main:348 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.Connection@5faeada1]
+2019-09-26 10:47:13  [ main:385 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@5faeada1]
+2019-09-26 10:47:13  [ main:385 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.Connection@5faeada1]
+2019-09-26 10:47:13  [ main:385 ] - [ DEBUG ]  Returned connection 1605283233 to pool.
+2019-09-26 10:47:24  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:47:24  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:24  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:24  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:24  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:47:24  [ main:195 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:47:24  [ main:329 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:47:24  [ main:329 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:47:24  [ main:331 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= {#uid } 
+2019-09-26 10:47:24  [ main:361 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:50:49  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:50:49  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:50:49  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:50:49  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:50:49  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:50:49  [ main:201 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:50:50  [ main:335 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:50:50  [ main:335 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:50:50  [ main:339 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= {#uid } 
+2019-09-26 10:50:50  [ main:362 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:51:07  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:51:07  [ main:86 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:07  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:07  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:07  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:07  [ main:172 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:51:07  [ main:320 ] - [ DEBUG ]  Created connection 2054574951.
+2019-09-26 10:51:07  [ main:320 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@7a765367]
+2019-09-26 10:51:07  [ main:322 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= {#uid } 
+2019-09-26 10:51:07  [ main:357 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:51:57  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:51:57  [ main:85 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:57  [ main:86 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:57  [ main:86 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:57  [ main:86 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:51:57  [ main:166 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:51:57  [ main:313 ] - [ DEBUG ]  Created connection 2054574951.
+2019-09-26 10:51:57  [ main:314 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@7a765367]
+2019-09-26 10:51:57  [ main:316 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= {#uid } 
+2019-09-26 10:51:58  [ main:335 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 10:53:06  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:53:07  [ main:79 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:07  [ main:79 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:07  [ main:79 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:07  [ main:79 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:07  [ main:151 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:53:07  [ main:285 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:53:07  [ main:286 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:53:07  [ main:288 ] - [ DEBUG ]  ==>  Preparing: select uname,upass from user where uid= ? 
+2019-09-26 10:53:07  [ main:302 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 10:53:07  [ main:324 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 10:53:29  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 10:53:29  [ main:80 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:29  [ main:81 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:29  [ main:81 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:29  [ main:81 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 10:53:29  [ main:170 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 10:53:29  [ main:304 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 10:53:29  [ main:305 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 10:53:29  [ main:307 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uid= ? 
+2019-09-26 10:53:29  [ main:329 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 10:53:29  [ main:357 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 11:00:57  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:00:58  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:00:58  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:00:58  [ main:87 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:00:58  [ main:88 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:00:58  [ main:155 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 11:00:58  [ main:294 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 11:00:58  [ main:294 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 11:00:58  [ main:297 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uname like concat('%',concat(?,'%')) 
+2019-09-26 11:00:58  [ main:322 ] - [ DEBUG ]  ==> Parameters: 国(String)
+2019-09-26 11:02:52  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:02:52  [ main:99 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:02:52  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:02:52  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:02:52  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:02:52  [ main:184 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 11:02:53  [ main:323 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 11:02:53  [ main:323 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 11:02:53  [ main:325 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uname like concat('%',concat(?,'%')) 
+2019-09-26 11:02:53  [ main:346 ] - [ DEBUG ]  ==> Parameters: 国(String)
+2019-09-26 11:02:53  [ main:367 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 11:16:35  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:17:31  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:18:39  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:19:08  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:21:02  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:21:02  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:21:02  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:21:02  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:21:02  [ main:100 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:21:02  [ main:179 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 11:21:02  [ main:318 ] - [ DEBUG ]  Created connection 1392425346.
+2019-09-26 11:21:02  [ main:318 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@52feb982]
+2019-09-26 11:21:02  [ main:320 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uid= ? 
+2019-09-26 11:21:02  [ main:336 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 11:21:02  [ main:348 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 13:22:16  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 13:22:16  [ main:84 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2019-09-26 13:22:16  [ main:85 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2019-09-26 13:22:16  [ main:86 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2019-09-26 13:22:16  [ main:87 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-09-26 13:22:16  [ main:88 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-09-26 13:22:16  [ main:89 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:22:16  [ main:90 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:22:16  [ main:131 ] - [ DEBUG ]  Reader entry: User.class
+2019-09-26 13:22:16  [ main:132 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:22:16  [ main:132 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:22:16  [ main:134 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:22:16  [ main:135 ] - [ DEBUG ]  Reader entry: ����   4 <  cn/yunhe/entity/User  java/lang/Object uid I uname Ljava/lang/String; upass <init> ()V Code
+2019-09-26 13:22:16  [ main:136 ] - [ DEBUG ]  Checking to see if class cn.yunhe.entity.User matches criteria [is assignable to Object]
+2019-09-26 13:22:16  [ main:158 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:22:16  [ main:158 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:22:16  [ main:158 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:22:16  [ main:158 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:22:16  [ main:226 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 13:22:16  [ main:362 ] - [ DEBUG ]  Created connection 2116908859.
+2019-09-26 13:22:16  [ main:362 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@7e2d773b]
+2019-09-26 13:22:16  [ main:364 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uid= ? 
+2019-09-26 13:22:16  [ main:398 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 13:22:16  [ main:417 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 13:29:18  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 13:29:18  [ main:69 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2019-09-26 13:29:18  [ main:69 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2019-09-26 13:29:18  [ main:70 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2019-09-26 13:29:18  [ main:71 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-09-26 13:29:18  [ main:71 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-09-26 13:29:18  [ main:72 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:29:18  [ main:72 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:29:18  [ main:115 ] - [ DEBUG ]  Reader entry: User.class
+2019-09-26 13:29:18  [ main:115 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:29:18  [ main:116 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:29:18  [ main:116 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:29:18  [ main:117 ] - [ DEBUG ]  Reader entry: ����   4 <  cn/yunhe/entity/User  java/lang/Object uid I uname Ljava/lang/String; upass <init> ()V Code
+2019-09-26 13:29:18  [ main:117 ] - [ DEBUG ]  Checking to see if class cn.yunhe.entity.User matches criteria [is assignable to Object]
+2019-09-26 13:29:18  [ main:141 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:29:18  [ main:141 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:29:18  [ main:141 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:29:18  [ main:142 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:30:30  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 13:30:30  [ main:88 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2019-09-26 13:30:30  [ main:88 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2019-09-26 13:30:30  [ main:88 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2019-09-26 13:30:30  [ main:89 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-09-26 13:30:30  [ main:89 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-09-26 13:30:30  [ main:90 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:30:30  [ main:90 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:30:30  [ main:125 ] - [ DEBUG ]  Reader entry: User.class
+2019-09-26 13:30:30  [ main:125 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:30:30  [ main:125 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:30:30  [ main:125 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:30:30  [ main:126 ] - [ DEBUG ]  Reader entry: ����   4 <  cn/yunhe/entity/User  java/lang/Object uid I uname Ljava/lang/String; upass <init> ()V Code
+2019-09-26 13:30:30  [ main:127 ] - [ DEBUG ]  Checking to see if class cn.yunhe.entity.User matches criteria [is assignable to Object]
+2019-09-26 13:30:30  [ main:150 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:30:30  [ main:150 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:30:30  [ main:150 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:30:30  [ main:150 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:30:30  [ main:154 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:30:30  [ main:154 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:30:30  [ main:156 ] - [ DEBUG ]  Reader entry: IUserDao.class
+2019-09-26 13:30:30  [ main:157 ] - [ DEBUG ]  Reader entry: IUserDao.xml
+2019-09-26 13:30:30  [ main:157 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:30:30  [ main:157 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:30:30  [ main:157 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:30:30  [ main:158 ] - [ DEBUG ]  Reader entry: ����   4   cn/yunhe/dao/IUserDao  java/lang/Object addUser (Lcn/yunhe/entity/User;)I 
+2019-09-26 13:30:30  [ main:158 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:30:30  [ main:158 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:30:30  [ main:159 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-09-26 13:30:30  [ main:159 ] - [ DEBUG ]  Checking to see if class cn.yunhe.dao.IUserDao matches criteria [is assignable to Object]
+2019-09-26 13:30:30  [ main:242 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 13:30:30  [ main:382 ] - [ DEBUG ]  Created connection 2116908859.
+2019-09-26 13:30:30  [ main:383 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@7e2d773b]
+2019-09-26 13:30:30  [ main:386 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uid= ? 
+2019-09-26 13:30:30  [ main:429 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 13:30:30  [ main:453 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 13:45:21  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 13:45:21  [ main:106 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2019-09-26 13:45:21  [ main:106 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2019-09-26 13:45:21  [ main:106 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2019-09-26 13:45:21  [ main:107 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-09-26 13:45:21  [ main:108 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-09-26 13:45:21  [ main:108 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:45:21  [ main:110 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:45:21  [ main:154 ] - [ DEBUG ]  Reader entry: User.class
+2019-09-26 13:45:21  [ main:155 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:45:21  [ main:155 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:45:21  [ main:155 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:45:21  [ main:158 ] - [ DEBUG ]  Reader entry: ����   4 <  cn/yunhe/entity/User  java/lang/Object uid I uname Ljava/lang/String; upass <init> ()V Code
+2019-09-26 13:45:21  [ main:160 ] - [ DEBUG ]  Checking to see if class cn.yunhe.entity.User matches criteria [is assignable to Object]
+2019-09-26 13:45:21  [ main:187 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:45:21  [ main:187 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:45:21  [ main:188 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:45:21  [ main:188 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:45:21  [ main:190 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:45:21  [ main:190 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:45:21  [ main:191 ] - [ DEBUG ]  Reader entry: IUserDao.class
+2019-09-26 13:45:21  [ main:192 ] - [ DEBUG ]  Reader entry: IUserDao.xml
+2019-09-26 13:45:21  [ main:192 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:45:21  [ main:192 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:45:21  [ main:192 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:45:21  [ main:193 ] - [ DEBUG ]  Reader entry: ����   4   cn/yunhe/dao/IUserDao  java/lang/Object addUser (Lcn/yunhe/entity/User;)I 
+2019-09-26 13:45:21  [ main:193 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:45:21  [ main:193 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:45:21  [ main:194 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-09-26 13:45:21  [ main:194 ] - [ DEBUG ]  Checking to see if class cn.yunhe.dao.IUserDao matches criteria [is assignable to Object]
+2019-09-26 13:45:21  [ main:279 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 13:46:08  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 13:46:08  [ main:83 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2019-09-26 13:46:08  [ main:83 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2019-09-26 13:46:08  [ main:83 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2019-09-26 13:46:08  [ main:84 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-09-26 13:46:08  [ main:84 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-09-26 13:46:08  [ main:84 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:46:08  [ main:85 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:46:08  [ main:120 ] - [ DEBUG ]  Reader entry: User.class
+2019-09-26 13:46:08  [ main:120 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity
+2019-09-26 13:46:08  [ main:120 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:46:08  [ main:121 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/entity/User.class
+2019-09-26 13:46:08  [ main:121 ] - [ DEBUG ]  Reader entry: ����   4 <  cn/yunhe/entity/User  java/lang/Object uid I uname Ljava/lang/String; upass <init> ()V Code
+2019-09-26 13:46:08  [ main:122 ] - [ DEBUG ]  Checking to see if class cn.yunhe.entity.User matches criteria [is assignable to Object]
+2019-09-26 13:46:08  [ main:143 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:46:08  [ main:143 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:46:08  [ main:143 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:46:08  [ main:144 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 13:46:08  [ main:147 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:46:08  [ main:147 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:46:08  [ main:148 ] - [ DEBUG ]  Reader entry: IUserDao.class
+2019-09-26 13:46:08  [ main:149 ] - [ DEBUG ]  Reader entry: IUserDao.xml
+2019-09-26 13:46:08  [ main:149 ] - [ DEBUG ]  Listing file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao
+2019-09-26 13:46:08  [ main:150 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:46:08  [ main:150 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.class
+2019-09-26 13:46:08  [ main:151 ] - [ DEBUG ]  Reader entry: ����   4   cn/yunhe/dao/IUserDao  java/lang/Object addUser (Lcn/yunhe/entity/User;)I 
+2019-09-26 13:46:08  [ main:151 ] - [ DEBUG ]  Find JAR URL: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:46:08  [ main:151 ] - [ DEBUG ]  Not a JAR: file:/D:/Program%20Files/eclipse-workspace/9-24-mybatis01/build/classes/cn/yunhe/dao/IUserDao.xml
+2019-09-26 13:46:08  [ main:152 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-09-26 13:46:08  [ main:153 ] - [ DEBUG ]  Checking to see if class cn.yunhe.dao.IUserDao matches criteria [is assignable to Object]
+2019-09-26 13:46:08  [ main:246 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 13:46:09  [ main:404 ] - [ DEBUG ]  Created connection 561247961.
+2019-09-26 13:46:09  [ main:404 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@2173f6d9]
+2019-09-26 13:46:09  [ main:406 ] - [ DEBUG ]  ==>  Preparing: select uid,uname,upass from user where uid= ? 
+2019-09-26 13:46:09  [ main:480 ] - [ DEBUG ]  ==> Parameters: 6(Integer)
+2019-09-26 13:46:09  [ main:517 ] - [ DEBUG ]  <==      Total: 1
