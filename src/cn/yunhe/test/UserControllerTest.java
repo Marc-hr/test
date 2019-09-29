@@ -37,7 +37,7 @@ public class UserControllerTest {
 	public void testAddUser() {
 		IUserDao userDao = sqlSession.getMapper(IUserDao.class);
 		User user = new User();
-		user.setUname("李四");
+		user.setUname("王二");
 		user.setUpass("12");
 		int result = userDao.addUser(user);
 		sqlSession.commit();
